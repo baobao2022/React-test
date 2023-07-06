@@ -17,9 +17,6 @@ class Nav extends React.Component {
                 <NavLink to="/user" activeClassName="active">
                     ListU
                 </NavLink>
-                <NavLink to="/facebook" activeClassName="active">
-                    Facebook
-                </NavLink>
                 <NavLink to="/youtube" activeClassName="active">
                     Youtube
                 </NavLink>

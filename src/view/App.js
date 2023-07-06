@@ -13,8 +13,6 @@ import ListTodo from './Todos/ListTodo';
 import DetailUser from "./User/DetailUser";
 import ListUser from "./User/ListUser";
 import logo from './logo.svg';
-import Facebook from "./FaceBook/facebook";
-import FaceBookDetail from "./FaceBook/fbdetail";
 import NoMatch from "./404notfound/NoMatch";
 import YoutubeSreach from "./Youtube/Youtube";
 // import { Button } from "bootstrap";
@@ -43,12 +41,6 @@ function App() {
             </Route>
             <Route path="/user/:id">             
               <DetailUser />
-            </Route>
-            <Route path="/facebook/">
-              <Facebook />
-            </Route>
-            <Route path="/facebook/:id">
-            <FaceBookDetail/>
             </Route>
             <Route path="/youtube">
             <YoutubeSreach />
